@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet"> 
 
 </head>
 <body>
@@ -74,6 +75,18 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
+<section class="my-5">
+  <div class="py-5">
+    <h2 class="text-center">O nas</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="images/jogging.png" class="img-fluid">
+    </div>
+  </div>
+</section>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
