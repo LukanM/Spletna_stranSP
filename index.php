@@ -103,7 +103,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-12">
             <div class="card">
-              <img class="card-img-top" src="images/savna.png" alt="Card image">
+              <img class="card-img-top" src="images/savna.png" alt="Savna">
               <div class="card-body">
                 <h4 class="card-title">Savna</h4>
                 <p class="card-text">Uporaba savne v notranjosti</p>
@@ -114,28 +114,61 @@
 
           <div class="col-lg-4 col-md-4 col-12">
             <div class="card">
-              <img class="card-img-top" src="images/bazen.png" alt="Card image">
+              <img class="card-img-top" src="images/bazen.png" alt="Bazen">
               <div class="card-body">
                 <h4 class="card-title">Bazen</h4>
                 <p class="card-text">Uporaba bazena v notranjosti in zunanjosti</p>
-                <a href="savna.php" class="btn btn-primary">Več o savni</a>
+                <a href="bazen.php" class="btn btn-primary">Več o bazenu</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-12">
             <div class="card">
-              <img class="card-img-top" src="images/pingpong.png" alt="Card image">
+              <img class="card-img-top" src="images/pingpong.png" alt="Ping pong">
               <div class="card-body">
-                <h4 class="card-title">Pin pong</h4>
+                <h4 class="card-title">Ping pong</h4>
                 <p class="card-text">Igranje ping ponga</p>
-                <a href="savna.php" class="btn btn-primary">Več o savni</a>
+                <a href="pingpong.php" class="btn btn-primary">Več o ping pong</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="my-5">
+      <div class="py-5">
+        <h2 class="text-center">Uživanje in sprostitev</h2>
+      </div>
+
+      <div class="w-50 m-auto">
+        <form action="userinfo.php" method="post">
+          <div class="form-group">
+            <label>Uporabniško ime</label>
+            <input type="text" name="ime" autocomplete="off" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Elektronska pošta</label>
+            <input type="text" name="email" autocomplete="off" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Telefonska številka</label>
+            <input type="text" name="tel" autocomplete="off" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Komentarji</label>
+            <textarea class="form-control" name="comments"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <h4 class="p-3 bg-dark text-white text-center">Oblikoval LukanFitnes, Avtorske pravice pridržane</h4>
+    </footer>
+            
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
