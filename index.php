@@ -139,9 +139,7 @@
       </div>
     </section>
 
-    <footer>
-        <h4 class="p-3 bg-dark text-white text-center">Oblikoval LukanFitnes, Avtorske pravice pridržane</h4>
-    </footer>
+<?php include 'footer.php' ?>
             
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
