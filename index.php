@@ -10,7 +10,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Neki</a>
+  <a class="navbar-brand" href="#">Lukan Fitnes</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,21 +18,21 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Domov<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#">Podpora</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.php">About</a>
+        <a class="nav-link" href="about.php">O nas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">Kontakti</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iskanje</button>
     </form>
   </div>
 </nav>
@@ -45,24 +45,24 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="images/joga.png" alt="Joga" width="1920" height="500">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3>Joga</h3>
+        <p>Joga zunaj po nasvetu trenerja.</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+      <img src="images/fitnes.png" alt="Fitnes" width="1920" height="500">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>Fitnes</h3>
+        <p>Uporaba fitnes opreme v centru Lukan Fitnes.</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="ny.jpg" alt="New York" width="1100" height="500">
+      <img src="images/diet.png" alt="Dieta" width="1920" height="500">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3>Dieta</h3>
+        <p>Raznevrstne diete po navodilu trenerja.</p>
       </div>   
     </div>
   </div>
