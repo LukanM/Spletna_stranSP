@@ -11,33 +11,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Lukan Fitnes</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Domov<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Urniki</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">O nas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Kontakti</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iskanje</button>
-        </form>
-      </div>
-    </nav>
+  <?php include 'menu.php'; ?>
 
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
@@ -139,7 +113,7 @@
 
     <section class="my-5">
       <div class="py-5">
-        <h2 class="text-center">Uživanje in sprostitev</h2>
+        <h2 class="text-center">Komentiranje</h2>
       </div>
 
       <div class="w-50 m-auto">
@@ -166,7 +140,7 @@
     </section>
 
     <footer>
-      <h4 class="p-3 bg-dark text-white text-center">Oblikoval LukanFitnes, Avtorske pravice pridržane</h4>
+        <h4 class="p-3 bg-dark text-white text-center">Oblikoval LukanFitnes, Avtorske pravice pridržane</h4>
     </footer>
             
 
