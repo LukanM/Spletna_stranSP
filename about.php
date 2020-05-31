@@ -25,9 +25,7 @@
         <p>This is another text.</p>      
     </div>
 
-    <footer>
-      <h4 class="p-3 bg-dark text-white text-center">Oblikoval LukanFitnes, Avtorske pravice pridržane</h4>
-    </footer>
+    <?php include 'footer.php'; ?>
 
 </body>
 </html>
